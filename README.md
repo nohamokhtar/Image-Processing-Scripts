@@ -23,7 +23,7 @@ A function that takes as input an image in the time/ spatial domain and outputs 
 ### "convTime" 
 function that takes as input two images (both in time/ spatial domain) and outputs an image resulting from their convolution.
 ### convFreq
-2. It is known that convolution in the time domain corresponds to multiplication in
+It is known that convolution in the time domain corresponds to multiplication in
 the frequency domain. Accordingly, "convFreq" function that takes as input two images in time domain, converts them to their corresponding images in the frequency domain. Then, outputs two images: An image in the frequency domain resulting from point multiplication. Another image
 in the time domain after applying inverse fourier transform on the output time
 domain image
@@ -34,5 +34,5 @@ A function that takes as input an image in the time/ spatial domain and a filter
 ## Frequency Domain 
 A function that takes as input two images in the time/ spatial domain. Your function should get the magnitude/ spectrum part from the first image (i.e. image X) by means of absolute, and the phase angle/ phase spectrum part from the second image (i.e. image Y) (phase angle = tan􀀀1(Image=magnitue)).
 Then, a new image (first output of function) should be formed using this equation
-FreqDomain = abs(Y ):  exp(i  angle(X)). Finally, inverse fourier transform must
+FreqDomain = abs(Y ): * exp(i * angle(X)). Finally, inverse fourier transform must
 be applied to the new image resulting in an image in time domain (second output).
