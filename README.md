@@ -31,6 +31,11 @@ domain image
 A function that takes as input an image in the time/ spatial domain and a filter in the frequency domain. The output should be the filtered image in the frequency domain and another filtered image in the time domain after applying inverse fourier transform.
 (Hint: "fspecial" used to create the filters in time domain and then convert them into frequency domain using the function Fourier Transform)
 
+#### Filters in Frequency Domain ideal low pass filter (fdfILP)
+#### Filters in Frequency Domaingaussian low pass filter (fdfGLP)
+#### Filters in Frequency Domainideal high pass filter (fdfIHP) 
+#### Filters in Frequency Domain gaussian high pass filter (fdfGHP)
+
 ## Frequency Domain 
 A function that takes as input two images in the time/ spatial domain. Your function should get the magnitude/ spectrum part from the first image (i.e. image X) by means of absolute, and the phase angle/ phase spectrum part from the second image (i.e. image Y) (phase angle = tan􀀀1(Image=magnitue)).
 Then, a new image (first output of function) should be formed using this equation
